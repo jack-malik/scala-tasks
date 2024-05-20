@@ -55,7 +55,7 @@ class PascalCalculator extends Pascal {
   }
 }
 
-object Pascal {
+object PascalCalculator {
   def main(args: Array[String]): Unit = {
     val result = Try {
       print("Enter row number in Pascal triangle:: ")

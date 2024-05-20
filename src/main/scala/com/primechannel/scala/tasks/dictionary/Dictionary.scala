@@ -1,8 +1,5 @@
 package com.primechannel.scala.tasks.dictionary
 
-import scalainterview.code.dict
-import scalainterview.code.dict.MyPredicate.letterAtPredicate
-
 import scala.collection.mutable.ListBuffer
 import scala.io.Source
 import scala.util.Try
