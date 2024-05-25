@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="scalactic.scalactic_2.13" type="repository">
+    <properties maven-id="org.scalactic:scalactic_2.13:3.2.16" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/scalactic_2.13-3.2.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/scala-library-2.13.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/scala-reflect-2.13.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

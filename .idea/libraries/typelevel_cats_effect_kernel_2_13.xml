@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="typelevel.cats.effect.kernel_2.13" type="repository">
+    <properties maven-id="org.typelevel:cats-effect-kernel_2.13:3.5.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/cats-effect-kernel_2.13-3.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/scala-library-2.13.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cats-core_2.13-2.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cats-kernel_2.13-2.9.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

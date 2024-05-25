@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="typelevel.cats.core_2.13" type="repository">
+    <properties maven-id="org.typelevel:cats-core_2.13:2.7.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/cats-core_2.13-2.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/scala-library-2.13.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cats-kernel_2.13-2.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/simulacrum-scalafix-annotations_2.13-0.5.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

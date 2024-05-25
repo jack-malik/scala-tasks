@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="io.github.cats4scala.cats.process_2.13" type="repository">
+    <properties maven-id="io.github.cats4scala:cats-process_2.13:0.0.2" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/cats-process_2.13-0.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/scala-library-2.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cats-core_2.13-2.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cats-kernel_2.13-2.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cats-effect_2.13-2.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/fs2-core_2.13-2.4.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/scodec-bits_2.13-1.1.18.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/fs2-io_2.13-2.4.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4cats-core_2.13-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4cats-slf4j_2.13-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/scala-reflect-2.13.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
