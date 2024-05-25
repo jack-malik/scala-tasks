@@ -1,4 +1,4 @@
-package com.primechannel.scala.tasks.fibonacci
+package com.primechannel.scala.tasks.recursive
 import scala.annotation.tailrec
 
 trait Fibonacci {
