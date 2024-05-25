@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="scalatest.shouldmatchers_2.13" type="repository">
-    <properties maven-id="org.scalatest:scalatest-shouldmatchers_2.13:3.2.16" />
+    <properties maven-id="org.scalatest:scalatest-shouldmatchers_2.13:3.2.17" />
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/scalatest-shouldmatchers_2.13-3.2.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/scalatest-shouldmatchers_2.13-3.2.17.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/scala-library-2.13.10.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/scalatest-matchers-core_2.13-3.2.16.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/scalatest-core_2.13-3.2.16.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/scalatest-compatible-3.2.16.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/scalactic_2.13-3.2.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/scalatest-matchers-core_2.13-3.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/scalatest-core_2.13-3.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/scalatest-compatible-3.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/scalactic_2.13-3.2.17.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/scala-xml_2.13-2.1.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/scala-reflect-2.13.10.jar!/" />
     </CLASSES>

@@ -1,5 +1,4 @@
-package com.primechannel.scala.tasks.groupby
-
+package assignments
 import javax.management.openmbean.InvalidKeyException
 import scala.::
 import scala.collection.mutable
@@ -14,11 +13,6 @@ import scala.collection.mutable.ListBuffer
  * - write to file in the form: age_group, avg age
  */
 import scala.io.Source
-
-class GroupBy {
-
-}
-
 /*
 case class Meter private (m: Int)
 object Meter {
@@ -36,6 +30,7 @@ object Meter {
 case class Person(first: String, last: String, age: Int)
 
 class Helper() {
+
   def repeatedSpan[T](col: Iterable[T], pred: T => Boolean): List[Iterable[T]] = {
     if (col.isEmpty) Nil
     else {
@@ -81,13 +76,13 @@ class Helper() {
     }
     val rangeToListMap: mutable.Map[Range, mutable.ListBuffer[Int]] =
       new mutable.HashMap[Range, mutable.ListBuffer[Int]]()
-    /*
-        for ((k, v) <- nameToPersonMap) {
-          val aTmpList = rangeToListMap.getOrElse(v, mutable.Seq()) {
-            rangeToListMap(v) = aTmpList :: v
-          }
-        }
-     */
+/*
+    for ((k, v) <- nameToPersonMap) {
+      val aTmpList = rangeToListMap.getOrElse(v, mutable.Seq()) {
+        rangeToListMap(v) = aTmpList :: v
+      }
+    }
+ */
     //for (i <- 0 to 10; j <- 0 to 10) yield (i, j) -> Random.nextBoolean()).toMap
 
     source.close()
@@ -121,8 +116,12 @@ object AgeGroupTest {
 
     val lamb2 = (x: String) => x + x
 
+
     val lGrouped7 = l.groupBy[String](identity).map(x => x + "-mystr-") // + x)
     println(lGrouped7)
+
+
+    sys.exit(0)
 
     val lGrouped8: Map[Int, List[Int]] = l2.groupBy[Int](identity) //.map(x => x)
     println(lGrouped8)
@@ -140,50 +139,53 @@ object AgeGroupTest {
     println(lGrouped5)
 
 
-//    val lGrouped6_0: scala.collection.immutable.Map[String, List[String]] = l.groupBy[String](identity).map {
-//      x => x.canEqual("cab")
-//    }
+    val lGrouped6_0: scala.collection.immutable.Map[String, List[String]] = l.groupBy[String](identity) //.map {
+      //x => x.canEqual("cab")
+    //}
 
-    val lGrouped6: Map[String, List[String]] = l.groupBy[String](identity).map(x => x)
-    println(lGrouped6)
+    /*
+            val lGrouped: Map[String, List[String]] = l.groupBy[String](identity).map(x => x)
+            println(lGrouped)
 
-    val lGrouped9: Iterable[String] = l.groupBy[String](identity).keys
-    println(lGrouped9)
+            val lGrouped2: Iterable[String] = l.groupBy[String](identity).map(x => x._1)
+            println(lGrouped2)
 
-    val lGrouped10 = l.groupBy[String](identity).map(x => x.canEqual("cab"))
-    println(lGrouped10)
+            val lGrouped3: Iterable[String] = l.groupBy[String](identity).keys
+            println(lGrouped3)
 
-    val lGrouped11: Iterable[String] = l.groupBy[String](identity).map(x => x._1)
-    println(lGrouped11)
+            val lGrouped4 = l.groupBy[String](identity).map(x => x.canEqual("cab"))
+            println(lGrouped4)
+         */
+        sys.exit(0)
+/*
+        val h: Helper = new Helper()
+        //    h.readInput()
 
-    val h: Helper = new Helper()
-    //    h.readInput()
+        val intSequence: Seq[Int] = Range(1,50)
+        //    val intSequence*: Range = Range(1, 10).span(_ <= intSequence.length/2).
 
-    val intSequence: Seq[Int] = Range(1,50)
-            //    val intSequence*: Range = Range(1, 10).span(_ <= intSequence.length/2).
+        val firstHalf = intSequence.span(_ <= intSequence.length /2)
+        val limits = (0 until 100 by 1) map {
 
-    val firstHalf = intSequence.span(_ <= intSequence.length /2)
+          i => (i , i + 10)
+        }
 
-    val limits = (0 until 100 by 1) map {
-      i => (i , i + 10)
+        //val range = 0 to 50
+        //println(range.zip(range.tail.by(10)))
+        val range = 0 to 1000  by 100
+        val lamb = (x: Int, y: Int) => (x, y-1)
+
+        val aSet: Set[(Int, Int)] = range.zip(range.tail).toSet
+        println(s"ASet: $aSet")
+        println( s"${range.zip(range.tail)}")
+        //println(s"Done: $range")
+        val aSeq = {for (i <- 0 until 50 by 1)
+          yield (i%10, i + 10)}.toArray
+
+        println(s"Done: $aSeq")
+        println("Done")
     }
-
-    //val range = 0 to 50
-    //println(range.zip(range.tail.by(10)))
-    val range = 0 to 1000  by 100
-    val lamb = (x: Int, y: Int) => (x, y-1)
-
-    val aSet: Set[(Int, Int)] = range.zip(range.tail).toSet
-    println(s"ASet: $aSet")
-    println( s"${range.zip(range.tail)}")
-    //println(s"Done: $range")
-    val aSeq = {for (i <- 0 until 50 by 1)
-      yield (i%10, i + 10)}.toArray
-
-    println(s"Done: ${aSeq}")
-    println("Done")
-
-    sys.exit(0)
+*/
   }
-}
 
+}

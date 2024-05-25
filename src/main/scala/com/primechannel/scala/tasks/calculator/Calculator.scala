@@ -13,6 +13,12 @@ trait Calculator {
   def evaluate(expression: String): Either[String, Int]
 }
 
+object Calculator {
+  def addNumbers(n1: Int, n2: Int): Int = {
+    n1 + n2
+  }
+}
+
 class MyCalculator {
   private lazy val numRe: Regex = """([+-]?(\d)+)""".r
   private lazy val wholeExpression: Regex = """^[+-]?(\d)+([+-]?(\d))+$""".r

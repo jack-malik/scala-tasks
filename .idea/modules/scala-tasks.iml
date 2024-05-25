@@ -52,5 +52,12 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="scalatest.flatspec_2.13" level="project" />
+    <orderEntry type="library" name="scalatest.funsuite_2.13" level="project" />
+    <orderEntry type="library" name="scalatest.refspec_2.13" level="project" />
+    <orderEntry type="library" name="typelevel.cats.core_2.13" level="project" />
+    <orderEntry type="library" name="typelevel.cats.effect.kernel_2.13" level="project" />
+    <orderEntry type="library" name="io.github.cats4scala.cats.process_2.13" level="project" />
+    <orderEntry type="library" name="scalactic.scalactic_2.13" level="project" />
   </component>
 </module>

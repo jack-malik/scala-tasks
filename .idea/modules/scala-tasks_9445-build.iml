@@ -18,6 +18,10 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="scalatest.freespec_2.131" level="project" />
+    <orderEntry type="library" name="scalatest.funspec_2.131" level="project" />
+    <orderEntry type="library" name="scalatest.matchers.core_2.13" level="project" />
+    <orderEntry type="library" name="scalatest.shouldmatchers_2.13" level="project" />
   </component>
   <component name="SbtModule">
     <option name="buildForURI" value="file:/$MODULE_DIR$/../../" />
