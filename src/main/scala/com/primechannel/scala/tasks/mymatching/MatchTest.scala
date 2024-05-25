@@ -23,6 +23,7 @@ object MatchTest extends {
       case Email(sender, title, message) => println(s"Sender: $sender - " +
           s"Title: $title: $message" +
           s"Msg: $message")
+      case VoiceRecording(contactName, link) => println(s"Caller: $contactName - Msg: $link")
     }
 
 
@@ -31,10 +32,7 @@ object MatchTest extends {
     val email: Email = Email("Jack", "Hello", "Email body: Hello Jack")
     val sms: SMS = SMS("Jack", "Sms body: Hello Jack")
     val voice: VoiceRecording = VoiceRecording("Jack", "Voice body: Hello Jack")
-
     showNotification(sms)
-
-
   }
 
 

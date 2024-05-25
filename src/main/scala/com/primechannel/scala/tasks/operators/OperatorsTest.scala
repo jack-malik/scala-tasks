@@ -1,9 +1,8 @@
-package operators
+package com.primechannel.scala.tasks.operators
 
 import scala.reflect.ClassTag
-import scala.runtime.Nothing$
 
-class OperatorsTest {
+trait OperatorsTest {
   def typetest[T: ClassTag]: Unit = {
     Console.println(this.isInstanceOf[T])
     Console.println(this.getClass)
