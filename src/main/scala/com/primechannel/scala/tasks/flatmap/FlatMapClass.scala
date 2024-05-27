@@ -1,10 +1,25 @@
 package flatmap
 
 class FlatMapClass(var name: String) {
+  def tupleIfCondition(xs: Array[Int], ys: Array[Int]): Array[(Int, Int)] = {
+    for {
+      x <- xs if x % 2 == 0
+      y <- ys
+    } yield (x, y)
+  }
+
+  def tupleIfConditionWithFlatMap(xs: Array[Int], ys: Array[Int]): Array[(Int, Int)] = {
+    xs.filter { x =>
+      x % 2 == 0
+    }.flatMap { x =>
+      ys.map { y =>
+        (x, y)
+      }
+    }
+  }
 }
 
-object GfG
-{
+object GfG  {
 
   // Main method
   def main(args:Array[String]): Unit = {
@@ -45,7 +60,7 @@ object GfG
 }
 
 object FlatMapClass {
-  val name: Seq[String] = Seq("Nidhi", "Singh")
+  val name: Seq[String] = Seq("Jack", "Malik")
 
   def main(args: Array[String]): Unit = {
     val result1 = this.name.map(_.toLowerCase)
@@ -53,7 +68,7 @@ object FlatMapClass {
     println(s"Flatted: $result1")
     println(s"Flatten: $result2")
     result1 match {
-      case List("nidhi", "singh") => println("Flatted")
+      case List("Jack", "Malik") => println("Flatted")
       case _ => println("Failed")
     }
     val str = 1 #:: 2 #:: 3 #:: Stream.empty

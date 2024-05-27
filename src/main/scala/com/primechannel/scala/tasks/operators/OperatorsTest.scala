@@ -2,7 +2,7 @@ package com.primechannel.scala.tasks.operators
 
 import scala.reflect.ClassTag
 
-trait OperatorsTest {
+class OperatorsTest {
   def typetest[T: ClassTag]: Unit = {
     Console.println(this.isInstanceOf[T])
     Console.println(this.getClass)
