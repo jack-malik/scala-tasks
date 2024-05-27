@@ -1,4 +1,5 @@
-package com.primechannel.scala.tasks.pascal
+package com.primechannel.scala.tasks.hansik.pascal
+
 import scala.util.{ Try, Success, Failure }
 
 trait Pascal {

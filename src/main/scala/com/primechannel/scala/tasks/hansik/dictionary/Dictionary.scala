@@ -1,4 +1,4 @@
-package com.primechannel.scala.tasks.dictionary
+package com.primechannel.scala.tasks.hansik.dictionary
 
 import scala.collection.mutable.ListBuffer
 import scala.io.Source

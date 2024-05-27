@@ -1,4 +1,4 @@
-package com.primechannel.scala.tasks.compress
+package com.primechannel.scala.tasks.hansik.compress
 
 trait Compress {
   /**

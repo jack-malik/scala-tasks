@@ -1,4 +1,4 @@
-package com.primechannel.scala.tasks.recursive
+package com.primechannel.scala.tasks.hansik.recursive
 
 import scala.annotation.tailrec
 
