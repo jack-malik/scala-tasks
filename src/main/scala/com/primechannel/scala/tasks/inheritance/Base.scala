@@ -1,4 +1,4 @@
-package inheritance
+package com.primechannel.scala.tasks.inheritance
 
 class Base(var firstName: String, var lastName: String) {
   private var _age: Int = 0
