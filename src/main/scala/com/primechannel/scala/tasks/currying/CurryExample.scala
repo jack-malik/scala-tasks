@@ -9,19 +9,11 @@ import org.scalatest.matchers.should
 import org.scalatest.flatspec._
 import org.scalatest.matchers.should._
 
-import caseclasses.equality.ClassesVsCaseClasses.{aliceAccount, bobAccount, c3, cThree}
-
 class CurryExample {
 
 }
 
 object CurryExample {
-
-  import caseclasses.equality.ClassesVsCaseClasses.{aliceAccount, bobAccount, c3, cThree}
-
-  aliceAccount == bobAccount shouldBe false
-  c3 == cThree shouldBe true
-  (5) shouldBe (5)
 
   def mycurrying(): Unit = {
     val sum: (Int, Int) => Int = (x, y) => x + y

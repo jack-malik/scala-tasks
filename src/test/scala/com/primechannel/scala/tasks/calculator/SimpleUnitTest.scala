@@ -1,5 +1,6 @@
 package com.primechannel.scala.tasks.calculator
 
+import com.primechannel.scala.tasks.hansik.calculator.Calculator
 import org.scalatest.freespec.AnyFreeSpec
 import org.scalatest.funspec._
 import org.scalatest.matchers.should.Matchers

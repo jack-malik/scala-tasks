@@ -1,4 +1,4 @@
-package com.primechannel.scala.tasks.calculator
+package com.primechannel.scala.tasks.hansik.calculator
 
 import scala.util.matching.Regex
 
